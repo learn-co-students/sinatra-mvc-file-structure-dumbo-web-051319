@@ -22,9 +22,10 @@ class Dog
     @@all << [name, breed, age]
 
   end
-  
+
 def self.all
   @@all
 end
+
 
 end
