@@ -6,6 +6,7 @@ describe ApplicationController do
       Dog.new("rudolph", "mastiff", 2)
       expect(Dog.all.count).to eq (1)
     end
+    
 
     it 'can read dog name' do
       @dog = Dog.new("rudolph", "mastiff", 2)
